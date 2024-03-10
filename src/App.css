@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Anta', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.rey {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.numero {
+  user-select: none;
+  font-size: 2em;
+  color: #007bff;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
